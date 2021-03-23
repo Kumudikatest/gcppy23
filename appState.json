@@ -365,6 +365,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "K1",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -390,7 +398,7 @@
     "platformRegions": {
       "AWS": "us-east-1"
     },
-    "lastSave": 1616499459848
+    "lastSave": 1616499978833
   },
   "VCS_STATE": {
     "provider": "GitHub",
