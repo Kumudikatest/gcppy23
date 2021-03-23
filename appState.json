@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61": {
+        "id": "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61",
+        "parent": null,
+        "name": "gcppy23.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcppy23.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcppy23"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1616498939908
+      },
+      "3fe71bc1-7264-4cb6-a5db-67f25192791a": {
+        "id": "3fe71bc1-7264-4cb6-a5db-67f25192791a",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "c2a0ecc1-a71c-4a1c-9368-9033f9c50ddd": {
+        "id": "c2a0ecc1-a71c-4a1c-9368-9033f9c50ddd",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61"
+    ],
+    "currentFileId": "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.2",
+    "projectName": "gcppy23",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1616498945669
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcppy23",
+      "url": "https://github.com/Kumudikatest/gcppy23"
+    }
+  }
+}
