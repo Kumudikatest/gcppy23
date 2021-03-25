@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "gcppy23.py",
         "cursor": {
-          "lineNumber": 7,
-          "column": 35
+          "lineNumber": 12,
+          "column": 10
         },
         "config": {
           "runtime": "python37",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1616498939908
+        "lastUpdated": 1616659448631
       },
       "3fe71bc1-7264-4cb6-a5db-67f25192791a": {
         "id": "3fe71bc1-7264-4cb6-a5db-67f25192791a",
@@ -59,12 +59,95 @@
         "children": [],
         "isRemovable": true,
         "filePath": "requirements.txt"
+      },
+      "a7d1159b-b53b-40c2-8d71-7186ce790a00": {
+        "id": "a7d1159b-b53b-40c2-8d71-7186ce790a00",
+        "parent": null,
+        "name": "subdir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
+          "42c8b46b-0e91-47da-a477-b8aa183d87ae"
+        ],
+        "isRemovable": true,
+        "filePath": "subdir"
+      },
+      "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d": {
+        "id": "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
+        "parent": "a7d1159b-b53b-40c2-8d71-7186ce790a00",
+        "name": "subpyfunc.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir/subpyfunc.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "subpyfunc"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1616661117306
+      },
+      "42c8b46b-0e91-47da-a477-b8aa183d87ae": {
+        "id": "42c8b46b-0e91-47da-a477-b8aa183d87ae",
+        "parent": "a7d1159b-b53b-40c2-8d71-7186ce790a00",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir/__init__.py"
+      },
+      "d14bde2a-34d8-4289-951e-9eb0150868f8": {
+        "id": "d14bde2a-34d8-4289-951e-9eb0150868f8",
+        "parent": null,
+        "name": "newpyfunc.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newpyfunc.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "newpyfunc"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1616661291391
       }
     },
     "openFiles": [
-      "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61"
+      "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61",
+      "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
+      "d14bde2a-34d8-4289-951e-9eb0150868f8"
     ],
-    "currentFileId": "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61",
+    "currentFileId": "d14bde2a-34d8-4289-951e-9eb0150868f8",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
@@ -325,12 +408,31 @@
             ]
           }
         }
+      },
+      "ddbKChineseAnimal": {
+        "name": "ddbKChineseAnimal",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/KChineseAnimal",
+            "name": "KChineseAnimal",
+            "partitionKey": "BirthYear",
+            "partitionKeyType": "N",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "",
+            "payPerRequest": true,
+            "mode": 1,
+            "secondaryIndexes": {}
+          }
+        }
       }
     },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "Deployment Manager",
       "definitions": null
     },
     "envVariables": [
@@ -383,12 +485,6 @@
           "version": "1.16.43",
           "dev": false,
           "notRemovable": false
-        },
-        "json": {
-          "name": "json",
-          "version": "1.1",
-          "dev": false,
-          "language": "python"
         }
       }
     }
@@ -404,7 +500,7 @@
     "platformRegions": {
       "AWS": "us-east-1"
     },
-    "lastSave": 1616505203025
+    "lastSave": 1616661318012
   },
   "VCS_STATE": {
     "provider": "GitHub",
