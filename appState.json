@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "gcppy23.py",
         "cursor": {
-          "lineNumber": 12,
-          "column": 10
+          "lineNumber": 4,
+          "column": 1
         },
         "config": {
           "runtime": "python37",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1616659448631
+        "lastUpdated": 1616666071396
       },
       "3fe71bc1-7264-4cb6-a5db-67f25192791a": {
         "id": "3fe71bc1-7264-4cb6-a5db-67f25192791a",
@@ -68,7 +68,8 @@
         "isDirectory": true,
         "children": [
           "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
-          "42c8b46b-0e91-47da-a477-b8aa183d87ae"
+          "42c8b46b-0e91-47da-a477-b8aa183d87ae",
+          "ae584f9f-6589-4466-8e43-3c5c6d6c0298"
         ],
         "isRemovable": true,
         "filePath": "subdir"
@@ -83,8 +84,8 @@
         "isRemovable": true,
         "filePath": "subdir/subpyfunc.py",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 16,
+          "column": 17
         },
         "config": {
           "runtime": "python37",
@@ -100,7 +101,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1616661117306
+        "lastUpdated": 1616669302530
       },
       "42c8b46b-0e91-47da-a477-b8aa183d87ae": {
         "id": "42c8b46b-0e91-47da-a477-b8aa183d87ae",
@@ -139,13 +140,43 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1616661291391
+        "lastUpdated": 1616669312321
+      },
+      "ae584f9f-6589-4466-8e43-3c5c6d6c0298": {
+        "id": "ae584f9f-6589-4466-8e43-3c5c6d6c0298",
+        "parent": "a7d1159b-b53b-40c2-8d71-7186ce790a00",
+        "name": "subfunc2.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir/subfunc2.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python37",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "subfunc2"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1616667713455
       }
     },
     "openFiles": [
       "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61",
       "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
-      "d14bde2a-34d8-4289-951e-9eb0150868f8"
+      "d14bde2a-34d8-4289-951e-9eb0150868f8",
+      "ae584f9f-6589-4466-8e43-3c5c6d6c0298"
     ],
     "currentFileId": "d14bde2a-34d8-4289-951e-9eb0150868f8",
     "resources": {
@@ -500,7 +531,7 @@
     "platformRegions": {
       "AWS": "us-east-1"
     },
-    "lastSave": 1616661318012
+    "lastSave": 1616677096249
   },
   "VCS_STATE": {
     "provider": "GitHub",

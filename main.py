@@ -4,3 +4,4 @@
 from gcppy23 import handler as gcppy23
 from subdir.subpyfunc import handler as subdirsubpyfunc
 from newpyfunc import handler as newpyfunc
+from subdir.subfunc2 import handler as subdirsubfunc2

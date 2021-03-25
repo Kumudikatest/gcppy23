@@ -7,13 +7,12 @@ def handler(request):
             TableName="KChineseAnimal",
             Item={
                 'BirthYear': {
-                    'N': "1994"
+                    'N': "1995"
                 }
             }
         )
     except BaseException as e:
         print(e)
         raise(e)
-    
     
     return "Successfully executed"
