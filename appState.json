@@ -69,7 +69,8 @@
         "children": [
           "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
           "42c8b46b-0e91-47da-a477-b8aa183d87ae",
-          "ae584f9f-6589-4466-8e43-3c5c6d6c0298"
+          "ae584f9f-6589-4466-8e43-3c5c6d6c0298",
+          "3b289965-b95a-49b9-aa6d-956d9c63ee32"
         ],
         "isRemovable": true,
         "filePath": "subdir"
@@ -170,15 +171,39 @@
           }
         ],
         "lastUpdated": 1616667713455
+      },
+      "5047efee-3205-407a-8e27-6e7587d165d4": {
+        "id": "5047efee-3205-407a-8e27-6e7587d165d4",
+        "parent": null,
+        "name": "mainhtml.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "mainhtml.html",
+        "lastUpdated": 1616678201713
+      },
+      "3b289965-b95a-49b9-aa6d-956d9c63ee32": {
+        "id": "3b289965-b95a-49b9-aa6d-956d9c63ee32",
+        "parent": "a7d1159b-b53b-40c2-8d71-7186ce790a00",
+        "name": "subhtml.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir/subhtml.html",
+        "lastUpdated": 1616678211938
       }
     },
     "openFiles": [
       "71e3d322-9e85-4c74-ac25-3e8d1cf7bc61",
       "7dee4d02-f1b5-40ef-ba17-0c48bc308e6d",
       "d14bde2a-34d8-4289-951e-9eb0150868f8",
-      "ae584f9f-6589-4466-8e43-3c5c6d6c0298"
+      "ae584f9f-6589-4466-8e43-3c5c6d6c0298",
+      "5047efee-3205-407a-8e27-6e7587d165d4",
+      "3b289965-b95a-49b9-aa6d-956d9c63ee32"
     ],
-    "currentFileId": "d14bde2a-34d8-4289-951e-9eb0150868f8",
+    "currentFileId": "3b289965-b95a-49b9-aa6d-956d9c63ee32",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
@@ -531,7 +556,7 @@
     "platformRegions": {
       "AWS": "us-east-1"
     },
-    "lastSave": 1616677096249
+    "lastSave": 1616678213799
   },
   "VCS_STATE": {
     "provider": "GitHub",
